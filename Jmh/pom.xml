@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.javacoders</groupId>
+  <artifactId>Jmh</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/pw.krejci/jmh-maven-plugin -->
+	<dependency>
+	    <groupId>pw.krejci</groupId>
+	    <artifactId>jmh-maven-plugin</artifactId>
+	    <version>0.2.2</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.openjdk.jmh/jmh-core -->
+	<dependency>
+	    <groupId>org.openjdk.jmh</groupId>
+	    <artifactId>jmh-core</artifactId>
+	    <version>1.36</version>
+	    <scope>test</scope>
+	</dependency>
+
+  </dependencies>
+</project>
